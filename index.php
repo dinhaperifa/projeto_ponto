@@ -8,7 +8,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         // Configura a sessão de redirecionamento
         $_SESSION['redirect_to_login'] = true;
         // Redireciona para a página de login
-        header('Location: index.php');
+        header('Location: logout.php');
         exit;
     }
 }
