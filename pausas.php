@@ -91,7 +91,7 @@ if(isset($_POST['sair'])) {
     echo '<script>
             var confirmar = confirm("Deseja realmente sair?");
             if (confirmar) {
-                location.href = "index.php";
+                location.href = "logout.php";
             }
           </script>';
 }
